@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+	<asset>
+		<contributor>
+			<authoring_tool>Autodesk Softimage version 9.5.184.0 - Crosswalk 2011.5</authoring_tool>
+		</contributor>
+		<created>2011-03-29T00:45:07Z</created>
+		<modified>2011-03-29T00:45:07Z</modified>
+		<revision>1.4.1</revision>
+		<unit meter="0.1" name="decimetre"></unit>
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_images>
+		<image id="noIcon_pic_img" format="bitmap" height="256" width="256" depth="32" name="noIcon_pic_img">
+			<init_from>file:///C:/Program Files/Autodesk/Softimage 2011 Subscription Advantage Pack/Application/rsrc/noIcon.pic</init_from>
+		</image>
+		<image id="CubeTex_jpg_img" format="bitmap" height="1000" width="1000" depth="32" name="CubeTex_jpg_img">
+			<init_from>../../Saatchila_Toyotaprius_20110316/CG/x_Toyotaprius/Pictures/Puzzle/CubeTex.jpg</init_from>
+		</image>
+		<image id="CubeTex_diffuse_jpg_img" format="bitmap" height="1000" width="1000" depth="32" name="CubeTex_diffuse_jpg_img">
+			<init_from>../../Saatchila_Toyotaprius_20110316/CG/x_Toyotaprius/Pictures/Puzzle/CubeTex_diffuse.jpg</init_from>
+		</image>
+	</library_images>
+	<library_effects>
+		<effect id="Phong_fx" name="Phong_fx"></effect>
+	</library_effects>
+	<library_materials>
+		<material id="Phong" name="Phong">
+			<instance_effect url="#Phong_fx"></instance_effect>
+		</material>
+	</library_materials>
+	<library_geometries>
+		<geometry id="geometries_0" name="geometries_0">
+			<mesh>
+				<source id="geometries_0-Pos">
+					<float_array id="geometries_0-Pos-array" count="84">
+						2.863365 2.863365 -0.029909 
+						0.029909 0.029909 -0.029909 
+						0.029909 2.863365 -0.029909 
+						2.863365 0.029909 -0.029909 
+						0.029909 2.863365 -2.863365 
+						0.029909 0.029909 -2.863365 
+						2.863365 0.029909 -2.863365 
+						3.635133 0.029909 -4.000000 
+						4.000000 0.029909 -3.635133 
+						0.029909 4.000000 -3.635133 
+						0.029909 3.635133 -4.000000 
+						3.635133 4.000000 -0.029909 
+						4.000000 3.635133 -0.029909 
+						3.635133 3.635133 -4.000000 
+						4.000000 3.635133 -3.635133 
+						3.635133 4.000000 -3.635133 
+						3.150768 0.029909 -2.863365 
+						3.150768 0.029909 -0.029909 
+						3.150768 2.863365 -0.029909 
+						3.150768 2.863365 -2.863365 
+						0.029909 0.029909 -3.150768 
+						2.863365 0.029909 -3.150768 
+						2.863365 2.863365 -3.150768 
+						0.029909 2.863365 -3.150768 
+						2.863365 3.150768 -2.863365 
+						2.863365 3.150768 -0.029909 
+						0.029909 3.150768 -0.029909 
+						0.029909 3.150768 -2.863365
+					</float_array>
+					<technique_common>
+						<accessor source="#geometries_0-Pos-array" count="28" stride="3">
+							<param name="X" type="float"/>
+							<param name="Y" type="float"/>
+							<param name="Z" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="geometries_0-Texture_Projection">
+					<float_array id="geometries_0-Texture_Projection-array" count="216">
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.075652 0.162461 
+						0.700115 0.643096 
+						0.700115 0.729348 
+						0.723608 0.752840 
+						0.723608 0.643096 
+						0.700115 0.729348 
+						0.613864 0.729348 
+						0.613864 0.752840 
+						0.723608 0.752840 
+						0.754781 0.729348 
+						0.754781 0.643096 
+						0.731289 0.643096 
+						0.731289 0.752840 
+						0.841033 0.729348 
+						0.754781 0.729348 
+						0.731289 0.752840 
+						0.841033 0.752840 
+						0.468409 0.959569 
+						0.382158 0.959569 
+						0.382158 0.983062 
+						0.491902 0.983062 
+						0.468409 0.873318 
+						0.468409 0.959569 
+						0.491902 0.983062 
+						0.491902 0.873318 
+						0.570585 0.202150 
+						0.570585 0.096637 
+						0.552089 0.096637 
+						0.552089 0.202150 
+						0.561337 0.218168 
+						0.652715 0.270925 
+						0.661962 0.254907 
+						0.570585 0.202150 
+						0.469960 0.270925 
+						0.561337 0.218168 
+						0.552089 0.202150 
+						0.460712 0.254907 
+						0.570585 0.202150 
+						0.552089 0.202150 
+						0.561337 0.218168 
+						0.700115 0.643096 
+						0.613864 0.643096 
+						0.613864 0.729348 
+						0.700115 0.729348 
+						0.841033 0.643096 
+						0.754781 0.643096 
+						0.754781 0.729348 
+						0.841033 0.729348 
+						0.468409 0.959569 
+						0.468409 0.873318 
+						0.382158 0.873318 
+						0.382158 0.959569
+					</float_array>
+					<technique_common>
+						<accessor source="#geometries_0-Texture_Projection-array" count="108" stride="2">
+							<param name="S" type="float"/>
+							<param name="T" type="float"/>
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="geometries_0-Vtx">
+					<input semantic="POSITION" source="#geometries_0-Pos"/>
+				</vertices>
+				<triangles count="52" material="Phong">
+					<input semantic="VERTEX" source="#geometries_0-Vtx" offset="0"/>
+					<input semantic="TEXCOORD" source="#geometries_0-Texture_Projection" offset="1"/>
+					<p>
+						25 2 
+						0 1 
+						18 0 
+						11 6 
+						25 5 
+						18 4 
+						11 6 
+						18 4 
+						12 3 
+						16 9 
+						6 8 
+						21 7 
+						8 13 
+						16 12 
+						21 11 
+						8 13 
+						21 11 
+						7 10 
+						4 16 
+						27 15 
+						23 14 
+						27 20 
+						9 19 
+						10 18 
+						27 20 
+						10 18 
+						23 17 
+						3 24 
+						0 23 
+						2 22 
+						3 24 
+						2 22 
+						1 21 
+						25 28 
+						26 27 
+						2 26 
+						25 28 
+						2 26 
+						0 25 
+						17 32 
+						18 31 
+						0 30 
+						17 32 
+						0 30 
+						3 29 
+						4 36 
+						2 35 
+						26 34 
+						4 36 
+						26 34 
+						27 33 
+						5 40 
+						1 39 
+						2 38 
+						5 40 
+						2 38 
+						4 37 
+						5 44 
+						6 43 
+						3 42 
+						5 44 
+						3 42 
+						1 41 
+						16 48 
+						17 47 
+						3 46 
+						16 48 
+						3 46 
+						6 45 
+						23 52 
+						20 51 
+						5 50 
+						23 52 
+						5 50 
+						4 49 
+						20 56 
+						21 55 
+						6 54 
+						20 56 
+						6 54 
+						5 53 
+						8 60 
+						14 59 
+						19 58 
+						8 60 
+						19 58 
+						16 57 
+						14 64 
+						12 63 
+						18 62 
+						14 64 
+						18 62 
+						19 61 
+						13 68 
+						7 67 
+						21 66 
+						13 68 
+						21 66 
+						22 65 
+						10 72 
+						13 71 
+						22 70 
+						10 72 
+						22 70 
+						23 69 
+						15 76 
+						9 75 
+						27 74 
+						15 76 
+						27 74 
+						24 73 
+						11 80 
+						15 79 
+						24 78 
+						11 80 
+						24 78 
+						25 77 
+						14 84 
+						8 83 
+						7 82 
+						14 84 
+						7 82 
+						13 81 
+						13 88 
+						10 87 
+						9 86 
+						13 88 
+						9 86 
+						15 85 
+						12 92 
+						14 91 
+						15 90 
+						12 92 
+						15 90 
+						11 89 
+						15 95 
+						14 94 
+						13 93 
+						19 99 
+						18 98 
+						17 97 
+						19 99 
+						17 97 
+						16 96 
+						23 103 
+						22 102 
+						21 101 
+						23 103 
+						21 101 
+						20 100 
+						27 107 
+						26 106 
+						25 105 
+						27 107 
+						25 105 
+						24 104
+					</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_visual_scenes>
+		<visual_scene id="visual_scenes_0" name="visual_scenes_0">
+			<node id="polymsh" name="polymsh">
+				<translate sid="translation">0.000000 0.000000 0.000000</translate>
+				<rotate sid="rotation_z">0.000000 0.000000 1.000000 0.000000</rotate>
+				<rotate sid="rotation_y">0.000000 1.000000 0.000000 0.000000</rotate>
+				<rotate sid="rotation_x">1.000000 0.000000 0.000000 0.000000</rotate>
+				<scale sid="scale">1.000000 1.000000 1.000000</scale>
+				<instance_geometry url="#geometries_0">
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="Phong" target="#Phong"></instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_geometry>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#visual_scenes_0"/>
+	</scene>
+</COLLADA>
