@@ -1,0 +1,37 @@
+<root>
+
+	<tournaments>
+        <tournament>
+                <data>2011-11-23</data>
+                <open>08:00</open>
+                <close>11:00</close>
+        </tournament>
+
+        <tournament>
+                <data>2011-11-24</data>
+                <open>08:00</open>
+                <close>11:00</close>
+        </tournament>
+
+        <tournament>
+                <data>2011-11-25</data>
+                <open>09:01</open>
+                <close>11:00</close>
+        </tournament>
+
+        <tournament>
+                <data>2011-11-25</data>
+                <open>12:00</open>
+                <close>18:00</close>
+        </tournament>
+
+
+	</tournaments>
+
+
+<people>
+        <played>12666</played>
+</people>
+
+	
+</root>
